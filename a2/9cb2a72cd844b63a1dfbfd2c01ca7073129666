@@ -1,0 +1,21 @@
+.gitattributes
+  s_0857780b2b8120::t_c19696ee02492d 2
+Sources/LFSDependency/Resources/pixel.png
+  s_0857780b2b8120::t_f78dde06174524 2-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a29cb2a72cd844b63a1dfbfd2c01ca7073129666",
+  "prompts": {},
+  "sessions": {
+    "s_0857780b2b8120": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e83e67574ffeVSue0CPYIu6SlA",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "sergio fresneda <sergiofg@ext.zara.com>"
+    }
+  }
+}
