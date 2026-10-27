@@ -3,8 +3,8 @@ import Testing
 
 @Test func payloadIsMaterialized() throws {
     let data = try LFSDependency.payload()
-    let content = String(decoding: data, as: UTF8.self)
+    let pngSignature: [UInt8] = [137, 80, 78, 71, 13, 10, 26, 10]
 
-    #expect(content.contains("stored with Git LFS"))
-    #expect(!content.hasPrefix("version https://git-lfs.github.com/spec/v1"))
+    #expect(data.starts(with: pngSignature))
+    #expect(data.count == 995)
 }
